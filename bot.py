@@ -1,8 +1,8 @@
-rr
+import os
 import telebot
 import random
 
-TOKEN = '7567966685:AAHm6_vk6MVWYg67V7leDAfKMiMf_ZRRSjE'
+TOKEN = os.getenv('7567966685:AAHm6_vk6MVWYg67V7leDAfKMiMf_ZRRSjE')
 bot = telebot.TeleBot(TOKEN)
 
 pokemones = ['Pikachu', 'Charmander', 'Squirtle', 'Bulbasaur', 'Eevee']
