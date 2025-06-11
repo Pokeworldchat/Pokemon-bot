@@ -2,7 +2,7 @@
 import telebot
 import random
 
-TOKEN = 'AQUI_TU_TOKEN'
+TOKEN = '7567966685:AAHm6_vk6MVWYg67V7leDAfKMiMf_ZRRSjE'
 bot = telebot.TeleBot(TOKEN)
 
 pokemones = ['Pikachu', 'Charmander', 'Squirtle', 'Bulbasaur', 'Eevee']
